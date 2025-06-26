@@ -1,10 +1,19 @@
-lsi: false
-safe: true
-source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+title: "Il mio Blog di Cibo e Luoghi"
+description: "Recensioni gastronomiche e avventure culinarie!"
+baseurl: ""
+url: "https://tuonome.github.io"
+
+theme: "jekyll-theme-cayman" # Cambia tema se vuoi
+markdown: kramdown
+
+author:
+  name: "Il tuo nome"
+  email: "tuemail@example.com"
+
+paginate: 5 # Quanti post per pagina
+
+# Aggiungi qui categorie per il blog
+categories:
+  - "Recensioni"
+  - "Ricette"
+  - "Viaggi"
